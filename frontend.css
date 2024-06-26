@@ -1,0 +1,87 @@
+.sm-com-archive .wp-form-slug-year,
+.sm-com-archive .wp-form-slug-month {
+  padding: 0 0 0.5em 0;
+  display: block;
+}
+.sm-com-archive .wp-form-slug-year label,
+.sm-com-archive .wp-form-slug-month label {
+  p: 1;
+  min-width: 45px;
+  display: inline-block;
+}
+.sm-com-archive .wp-form-slug-year .sm-form-input,
+.sm-com-archive .wp-form-slug-month .sm-form-input {
+  width: 85px;
+}
+.sm-com-archive .elm-query-link {
+  padding: 0 0 0 10px;
+}
+.sm-com-archive .elm-month-grid {
+  width: 100%;
+  padding: 0.5em 0 0 0;
+}
+.sm-com-archive .elm-month-grid td {
+  padding: 0.3em;
+  text-align: center;
+}
+.sm-com-archive .elm-month-grid td.archive {
+  background: #EEE;
+}
+.sm-com-archive .elm-month-grid td.archive a {
+  text-decoration: underline;
+}
+.sm-com-archive .elm-month-grid td.today {
+  font-weight: bold;
+}
+.sm-com-search .elm-holder {
+  position: relative;
+}
+.sm-com-search.active {
+  display: block !important;
+}
+.sm-com-search.style-menu-fw .elm-form {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: calc(100% - 40px);
+  height: 100%;
+}
+.sm-com-search.style-menu-fw .elm-input-text {
+  width: 100%;
+  height: 100%;
+}
+.sm-com-search.style-menu-fw .elm-input-text input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 1em 0 1em;
+  font-size: 1rem;
+}
+.sm-com-search.style-menu-fw .elm-input-submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.sm-com-search.style-menu-fw .elm-input-submit input {
+  height: 100%;
+  -webkit-appearance: none;
+  border: 1px solid #CCC;
+  background: #EEE;
+  font-size: 1rem;
+}
+.view-builder-holder {
+  background: #FFF;
+  border: 8px solid #DDD;
+  padding: 10px;
+  margin: 15px 10px;
+}
+.view-builder-holder h3 {
+  margin: 0 0 7px 0;
+  font-size: 17px;
+}
+.view-builder-holder p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}

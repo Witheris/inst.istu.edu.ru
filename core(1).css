@@ -1,0 +1,42 @@
+.sm-lazy-behaviors {
+  display: none;
+}
+.image-holder img {
+  /* max-width: 100%; height: auto; */
+}
+.image-holder.centered {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0;
+}
+.image-holder.centered img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.sm-switcher > :not(.sm-active) {
+  display: none;
+}
+.sm-more-dropdown .more {
+  position: relative;
+}
+.sm-more-dropdown .more .more-items {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background: #FFF;
+  position: absolute;
+  top: 1.3em;
+  right: 0;
+}
+.sm-more-dropdown .more .more-items > * {
+  list-style: none;
+  padding: 6px 6px;
+}
+.sm-more-dropdown .more:hover .more-items {
+  display: block;
+}
